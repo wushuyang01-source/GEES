@@ -1,0 +1,1139 @@
+/* Electric System Page Specific Styles */
+
+/* Hero Section */
+.electric-hero {
+    position: relative;
+    height: 95vh;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 10rem;
+}
+
+.section__title {
+  color:  rgb(0, 0, 0);
+  position: relative;
+  margin: 1rem auto;
+  text-align: center;
+  max-width: 900px;
+}
+.electric-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    z-index: 1;
+    transition: background-color 0.3s ease;
+}
+
+.electric-hero:hover::before {
+    background: rgba(223, 231, 239, 0.45); /* #dfe7ef72 with slightly more opacity */
+}
+
+/* Make sure content remains visible above the overlay */
+.electric-hero__content {
+    position: relative;
+    z-index: 2;
+}
+.electric-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    color: rgba(0, 0, 0, 0.84);
+}
+.section__description {
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  max-width: 900px;
+  
+  text-align: center;
+}
+.electric-hero__title {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.electric-hero__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.electric-hero__badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    backdrop-filter: blur(10px);
+}
+
+/* System Overview */
+.system-overview {
+    margin-top:3rem;
+    margin-bottom: 30rem;
+    padding: 50px 0;
+    background: linear-gradient(135deg, #1E2A79 );
+    color: white;
+    position: relative;
+    
+}
+
+.overview__intro {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.overview__intro-text {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto 1rem;
+    font-weight: 600;
+}
+
+.overview__features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding-bottom: 2rem;
+}
+
+.feature__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    text-align: left;
+}
+
+.feature__icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+    margin-top: 0.5rem;
+}
+
+.feature__content p {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.overview__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+    position: relative;
+    z-index: 2;
+    /* Cards extend beyond the blue section */
+    margin-bottom: -350px;
+}
+
+.overview__card {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    color: #1e293b;
+    min-height: 400px;
+    /* Add top margin to make cards extend upward */
+    margin-top: -50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overview__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+
+.card__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #1E2A79;
+}
+
+.advantages .card__title {
+    color: #000000;
+    border-bottom-color: #1E2A79;
+}
+
+.features .card__title {
+    color: #000000;
+    border-bottom-color: #1E2A79;
+}
+
+.disadvantages .card__title {
+    color: #1E2A79;
+    border-bottom-color: #1E2A79;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card__item {
+    padding: 12px 16px;
+    border: 2px solid #2563eb;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    background: #f8fafc;
+}
+
+.advantages .card__item {
+    border-color: #1E2A79;
+    color: #1E2A79;
+    background: #f0f3fd;
+}
+
+.advantages .card__item:hover {
+    background: #1E2A79;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.disadvantages .card__item {
+    border-color: #1E2A79;
+    color: #1E2A79;
+    background: #f0f3fd;
+}
+
+.disadvantages .card__item:hover {
+    background: #1E2A79;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.features .card__item {
+    border-color: #1E2A79;
+    color: #1E2A79;
+    background: #eff6ff;
+}
+
+.features .card__item:hover {
+    background: #1E2A79;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.feature__subtitle {
+    text-align: center;
+    font-weight: 600;
+    color: #1E2A79;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.emissions__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.emission__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background: #eff6ff;
+    border-radius: 12px;
+    border-left: 4px solid #1E2A79;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.emission__label {
+    font-weight: 600;
+    color: #64748b;
+    font-size: 1rem;
+}
+
+.emission__value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1E2A79;
+}
+
+/* Add spacing to the next section to accommodate overlapping cards */
+.components {
+    margin-top: 150px;
+}
+
+/* Components Section */
+.components {
+    padding: 100px 0;
+    background: white;
+}
+
+.components__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.component-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.component-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.component-card__icon {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.battery-icon {
+    background: linear-gradient(135deg, #fef3c7, #fcd34d);
+}
+
+.inverter-icon {
+    background: linear-gradient(135deg, #ddd6fe, #a78bfa);
+}
+
+.motor-icon {
+    background: linear-gradient(135deg, #fecaca, #f87171);
+}
+
+.control-icon {
+    background: linear-gradient(135deg, #bfdbfe, #60a5fa);
+}
+
+.component-card__title {
+    font-size: 1.5rem;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.component-card__description {
+    color: #64748b;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.component-card__specs {
+    border-top: 1px solid #e2e8f0;
+    padding-top: 1.5rem;
+}
+
+.spec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+
+.spec__label {
+    color: #64748b;
+    font-weight: 500;
+}
+
+.spec__value {
+    color: #1e293b;
+    font-weight: 600;
+}
+
+/* Performance Section */
+.performance {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%);
+}
+
+.performance__carousel {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color-background);
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-large);
+    overflow: hidden;
+}
+
+/* Carousel Structure for Performance */
+.performance .carousel__container {
+    overflow: hidden;
+    position: relative;
+}
+
+.performance .carousel__track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* Default for 3 slides (serial hybrid) */
+    width: 300%;
+}
+
+/* Full electric system needs 6 slides */
+body:has([src*="fullelectric"]) .performance .carousel__track,
+[style*="fullelectric"] ~ * .performance .carousel__track {
+    width: 600%;
+}
+
+.performance .carousel__slide {
+    /* Default for 3 slides */
+    width: 33.333%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+    align-items: center;
+}
+
+/* Full electric system slide width */
+body:has([src*="fullelectric"]) .performance .carousel__slide,
+[style*="fullelectric"] ~ * .performance .carousel__slide {
+    width: 16.667%;
+}
+
+.performance .carousel__diagram {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-background-light);
+}
+
+.performance .chart__item {
+    background: none;
+    box-shadow: none;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.performance .carousel__info {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.performance .carousel__title {
+    font-size: 1.75rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.performance .carousel__description {
+    color: var(--color-text-light);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.performance .carousel__features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Enhanced Chart Bars for Performance Metrics */
+.chart__item {
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.chart__item h4 {
+    font-size: 1.25rem;
+    color: #1e293b;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.chart__bar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Clean modern bar styling */
+.bar {
+    height: 46px;
+    border-radius: 6px;
+    position: relative;
+    background: #f1f5f9;
+    overflow: visible;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+/* Bar fill effect with animation */
+.bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 6px;
+    transition: width 1.2s ease-out;
+    width: 0;
+}
+
+.bar.electric::before {
+    background: linear-gradient(90deg, #38bdf8, #38bdf8);
+    width: 100%;
+}
+
+.bar.diesel::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 85%;
+}
+
+.bar.electric-low::before {
+    background: linear-gradient(90deg, #28c263, #32b84f);
+    width: 20%;
+}
+
+.bar.diesel-high::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 80%;
+}
+
+.bar.electric-quiet::before {
+    background: linear-gradient(90deg, #28c263, #32b84f);
+    width: 30%;
+}
+
+.bar.diesel-loud::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 85%;
+}
+
+/* Cost analysis bars */
+.bar.electric-cost::before {
+    background: linear-gradient(90deg, #28c263, #32b84f);
+    width: 40%;
+}
+
+.bar.diesel-cost::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 100%;
+}
+
+/* Range comparison bars */
+.bar.electric-range::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 15%;
+}
+
+.bar.diesel-range::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 100%;
+}
+
+/* Emissions comparison bars */
+.bar.electric-emission::before {
+    background: linear-gradient(90deg, #10b981, #34d399);
+    width: 1%; /* Just a tiny bit to be visible */
+}
+
+.bar.diesel-emission::before {
+    background: linear-gradient(90deg, #ef4444, #f87171);
+    width: 100%;
+}
+
+.electric-emission::after {
+    content: '0%';
+}
+
+.diesel-emission::after {
+    content: 'High';
+}
+
+/* Improved label positioning and styling */
+.bar__label {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    font-weight: 600;
+    font-size: 0.95rem;
+    z-index: 5;
+}
+
+.electric .bar__label, .electric-low .bar__label, .electric-quiet .bar__label {
+    color: rgb(15, 11, 11);
+    left: 0;
+}
+
+.diesel .bar__label, .diesel-high .bar__label, .diesel-loud .bar__label {
+    color: rgb(15, 11, 11);
+    left: 0;
+}
+
+/* Data value indicators */
+.bar::after {
+    content: attr(data-value) '%';
+    position: absolute;
+    right: 0.5rem;
+    top: -1.5rem;
+    font-weight: 700;
+    font-size: 0.85rem;
+    color: #1e293b;
+}
+
+.electric-low::after {
+    content: 'Low';
+}
+
+.diesel-high::after {
+    content: 'High';
+}
+
+.electric-quiet::after {
+    content: '45 dB';
+}
+
+.diesel-loud::after {
+    content: '85 dB';
+}
+
+/* Comparison legend */
+.chart__legend {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.legend__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.legend__color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.legend__color--electric {
+    background: #388bf8;
+}
+
+.legend__color--diesel {
+    background: #fb923c;
+}
+
+.legend__text {
+    font-size: 0.9rem;
+    color: #64748b;
+}
+
+
+/* Add this to your system.css file */
+
+/* Parallel hybrid system needs 4 slides */
+body:has([src*="parallelhybrid"]) .performance .carousel__track,
+[style*="parallelhybrid"] ~ * .performance .carousel__track {
+    width: 400%;
+}
+
+body:has([src*="parallelhybrid"]) .performance .carousel__slide,
+[style*="parallelhybrid"] ~ * .performance .carousel__slide {
+    width: 25%;
+}
+
+
+/* Responsive adjustments for performance carousel */
+@media (max-width: 768px) {
+    .performance .carousel__slide {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+    
+    .performance .carousel__diagram {
+        order: 1;
+        padding: 1rem;
+    }
+    
+    .performance .carousel__info {
+        order: 2;
+        padding: 1.5rem;
+    }
+    
+    .performance .chart__item h4 {
+        font-size: 1.1rem;
+    }
+    
+    .performance .chart__bar {
+        gap: 0.75rem;
+    }
+    
+    .performance .bar {
+        height: 40px;
+    }
+    
+    .performance .bar__label {
+        font-size: 0.9rem;
+    }
+}
+
+/* Applications Section */
+.applications {
+    padding: 100px 0;
+    background: white;
+}
+
+.applications__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.application-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+}
+
+.application-card:hover {
+    transform: translateY(-5px);
+}
+
+.application-card__image {
+    margin-bottom: 1.5rem;
+}
+
+.placeholder-image {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.application-card h3 {
+    color: #1e293b;
+    margin-bottom: 1rem;
+}
+
+.application-card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    color: white;
+    text-align: center;
+}
+
+.cta__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.cta__description {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta__actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/* Footer */
+.footer {
+    background: #1e293b;
+    color: white;
+    padding: 50px 0 30px;
+}
+
+.footer__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer__section h4 {
+    margin-bottom: 1rem;
+    color: #60a5fa;
+}
+
+.footer__bottom {
+    border-top: 1px solid #374151;
+    padding-top: 2rem;
+    text-align: center;
+    color: #9ca3af;
+}
+
+/* SLD Example Section */
+.sld-section {
+    padding: 100px 0;
+    background: white;
+}
+
+.sld-container {
+    max-width: 1000px;
+    margin: 3rem auto 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.sld-image-area {
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    min-height: 400px;
+}
+
+.sld-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.sld-placeholder {
+    font-size: 2rem;
+    color: #64748b;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.sld-text-area {
+    background: #f1f5f9;
+    padding: 3rem;
+}
+
+.sld-text-area h3 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #1e293b;
+}
+
+.sld-text-area p {
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Responsive adjustments for SLD section */
+@media (max-width: 768px) {
+    .sld-image-area {
+        padding: 1.5rem;
+        min-height: 300px;
+    }
+    
+    .sld-text-area {
+        padding: 1.5rem;
+    }
+    
+    .sld-text-area h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .overview__cards {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: -100px;
+    }
+    
+    .overview__features {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .components {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .electric-hero__title {
+        font-size: 2.5rem;
+    }
+    
+    .electric-hero__subtitle {
+        font-size: 1.25rem;
+    }
+    
+    .overview__grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .components__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .applications__grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    
+    .cta__title {
+        font-size: 2rem;
+    }
+    
+    .cta__actions {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .electric-hero {
+        padding: 140px 0 80px;
+    }
+    
+    .component-card {
+        padding: 1.5rem;
+    }
+    
+    .chart__item {
+        padding: 1.5rem;
+    }
+    
+    .overview__intro-text {
+        font-size: 1.1rem;
+    }
+    
+    .feature__content p {
+        font-size: 1rem;
+    }
+    
+    .overview__card {
+        padding: 1rem;
+        min-height: auto;
+        margin-top: -30px;
+    }
+    
+    .overview__cards {
+        margin-bottom: -80px;
+    }
+    
+    .components {
+        margin-top: 80px;
+    }
+    
+    .card__item {
+        font-size: 0.85rem;
+        padding: 10px 12px;
+    }
+}
+
+/* Fix the carousel track width based on page */
+.performance .carousel__track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* Default for 3 slides (serial hybrid) */
+    width: 300%;
+}
+
+/* Full electric system needs 6 slides */
+body:has([src*="fullelectric"]) .performance .carousel__track,
+[style*="fullelectric"] ~ * .performance .carousel__track {
+    width: 600%;
+}
+
+.performance .carousel__slide {
+    /* Default for 3 slides */
+    width: 33.333%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+    align-items: center;
+}
+
+/* Full electric system slide width */
+body:has([src*="fullelectric"]) .performance .carousel__slide,
+[style*="fullelectric"] ~ * .performance .carousel__slide {
+    width: 16.667%;
+}
+
+/* Fix bar data values for serial hybrid system */
+/* For bars that show 75% efficiency */
+.bar[data-value="75"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 75% !important;
+}
+
+/* For bars that show 35% efficiency */
+.bar[data-value="35"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 35% !important;
+}
+
+
+
+/* For bars that show 75% range */
+.bar[data-value="75"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 75% !important;
+}
+
+.bar[data-value="85db"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 85% !important;
+}
+
+
+/* For bars that show 73% (27% reduction) */
+.bar[data-value="73"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 73% !important;
+}
+
+/* Fix bar data values - Override all existing bar rules */
+.bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 6px;
+    transition: width 1.2s ease-out;
+    width: 0;
+}
+
+/* Power Output Slide - Parallel Hybrid: 130%, Traditional: 100% */
+.bar[data-value="130"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 100% !important; /* Show as 100% since it's the max */
+}
+
+.bar[data-value="77"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 77% !important;
+}
+
+
+
+.bar[data-value="65"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 65% !important;
+}
+
+/* Range Slide - Parallel: 110%, Electric: 15% */
+.bar[data-value="110"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 100% !important; /* Show as 100% since it's over 100% */
+}
+
+
+
+/* Emissions Slide - Parallel: 44% (56% reduction), Traditional: 100% */
+.bar[data-value="44"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 44% !important;
+}
+
+.bar[data-value="43"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 43% !important;
+}
+
+/* Keep existing rules for other systems */
+.bar[data-value="95"]::before {
+    background: linear-gradient(90deg, #28c263, #32b84f);
+    width: 95% !important;
+}
+
+.bar[data-value="75serial"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 75% !important;
+}
+
+.bar[data-value="85"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 85% !important;
+}
+
+.bar[data-value="15"]::before {
+    background: linear-gradient(90deg, #07a94d, #0d8f4c);
+    width: 15% !important;
+}
+
+.bar[data-value="27"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 27% !important;
+}
+
+
+.bar[data-value="35"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 35% !important;
+}
+.bar[data-value="0"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    width: 0% !important;
+}
+.bar[data-value="56"]::before {
+    background: linear-gradient(90deg, #0ea5e9, #38bdf8);
+    width: 56% !important;
+}
+
+
+/* Remove conflicting rules */
+.bar.electric::before,
+.bar.diesel::before {
+    /* These will be overridden by data-value specific rules */
+}
