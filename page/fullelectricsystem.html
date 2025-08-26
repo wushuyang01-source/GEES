@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="fullElectricSystemPageTitle">Full Electric System - General Energies</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/system.css">
+    <link rel="stylesheet" href="../../css/languageswitcher.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="electric-hero" style="background-image: url('../img/system/fullelectric.png');">
+        <div class="container">
+            <div class="electric-hero__content">
+                <h1 class="electric-hero__title" data-translate="fullElectricMarineSystems">Full Electric Marine Systems</h1>
+                <p class="electric-hero__subtitle" data-translate="advancedZeroEmissionPropulsion">Advanced Zero-Emission Propulsion Solutions</p>
+                <div class="electric-hero__badge">
+                    <span data-translate="hundredPercentEmissionFree"> 100% Emission-Free</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+      <h2 class="section__title" data-translate="theFullElectricSystem">
+          The Full Electric system 
+      </h2>
+      <div class="section__description" data-translate="fullElectricSystemDescription">
+          The full electric propulsion system refers to an electric vessel powered primarily by batteries. It includes at least two independent battery sets, each capable of supporting the ship's entire voyage endurance.
+      </div>
+    </div>
+    
+    <!-- System Overview -->
+    <section class="system-overview">
+        <div class="container">
+            <div class="overview__intro">
+                
+                <div class="overview__features">
+                    <div class="feature__item">
+                        <div class="feature__icon">✓</div>
+                        <div class="feature__content">
+                            <p data-translate="shipNavigationSupply">The ship's navigation and electronics, control system and hotel daily load will be all supplied by battery power.</p>
+                        </div>
+                    </div>
+                    <div class="feature__item">
+                        <div class="feature__icon">📊</div>
+                        <div class="feature__content">
+                            <p data-translate="batteryPowersAllSystems">The battery powers air conditioning, cooling, refrigeration, ventilation, water pumps for supply and drainage, and all essential kitchen appliances.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="overview__cards">
+                <div class="overview__card advantages">
+                    <h3 class="card__title" data-translate="advantages">Advantages</h3>
+                    <div class="card__content">
+                        <div class="card__item" data-translate="simple">SIMPLE</div>
+                        <div class="card__item" data-translate="lessSpaceOccupancy">LESS SPACE OCCUPANCY</div>
+                        <div class="card__item" data-translate="lessCrew">LESS CREW</div>
+                        <div class="card__item" data-translate="quiet">QUIET</div>
+                        <div class="card__item" data-translate="lessVibration">LESS VIBRATION</div>
+                    </div>
+                </div>
+
+                <div class="overview__card features">
+                    <h3 class="card__title" data-translate="features">Features</h3>
+                    <div class="card__content">
+                        <p class="feature__subtitle" data-translate="suitableForAzimuthThrusters">Suitable for use with azimuth thrusters</p>
+                        <div class="emissions__grid">
+                            <div class="emission__item">
+                                <span class="emission__label" data-translate="co2Emission">CO₂ emission</span>
+                                <span class="emission__value">0%</span>
+                            </div>
+                            <div class="emission__item">
+                                <span class="emission__label" data-translate="no2Emission">NO₂ emission</span>
+                                <span class="emission__value">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overview__card disadvantages">
+                    <h3 class="card__title" data-translate="disadvantages">Disadvantages</h3>
+                    <div class="card__content">
+                        <div class="card__item" data-translate="highCostBattery">HIGH COST BATTERY</div>
+                        <div class="card__item" data-translate="weightOfBattery">WEIGHT OF BATTERY</div>
+                        <div class="card__item" data-translate="limitedRange">LIMITED RANGE</div>
+                        <div class="card__item" data-translate="notFriendlyToHighSpeed">NOT FRIENDLY TO HIGH SPEED</div>
+                        <div class="card__item" data-translate="worryAboutOutOfBattery">WORRY ABOUT OUT OF BATTERY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section -->
+    <section class="performance">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-translate="performanceMetrics">Performance Metrics</h2>
+                <p class="section__description" data-translate="comparePerformanceDesc">
+                    Compare the performance of electric systems with traditional propulsion methods.
+                </p>
+            </div>
+
+            <div class="performance__carousel">
+                <!-- Navigation -->
+                <button class="carousel__nav carousel__nav--prev" id="perfPrevBtn">
+                    <span class="carousel__arrow">←</span>
+                </button>
+                <button class="carousel__nav carousel__nav--next" id="perfNextBtn">
+                    <span class="carousel__arrow">→</span>
+                </button>
+                
+                <!-- Slides Container -->
+                <div class="carousel__container">
+                    <div class="carousel__track" id="performanceTrack">
+                        <!-- Efficiency Slide -->
+                        <div class="carousel__slide carousel__slide--active">
+                            <div class="carousel__diagram">
+                                <div class="chart__item">
+                                    <h4 data-translate="energyEfficiency">Energy Efficiency</h4>
+                                    <div class="chart__legend">
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--electric"></div>
+                                            <span class="legend__text" data-translate="electric">Electric</span>
+                                        </div>
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--diesel"></div>
+                                            <span class="legend__text" data-translate="diesel">Diesel</span>
+                                        </div>
+                                    </div>
+                                    <div class="chart__bar">
+                                        <div class="bar electric" data-value="95">
+                                            <span class="bar__label" data-translate="electricEfficiency">Electric: 95%</span>
+                                        </div>
+                                        <div class="bar diesel" data-value="35">
+                                            <span class="bar__label" data-translate="dieselEfficiency">Diesel: 35%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__info">
+                               
+                                <h3 class="carousel__title" data-translate="superiorEnergyEfficiency">Superior Energy Efficiency</h3>
+                                <p class="carousel__description" data-translate="electricSystemsEfficiencyDesc">
+                                    Electric systems convert up to 95% of energy to motion, while diesel engines typically achieve only 35% efficiency, with the rest lost as heat and noise.
+                                </p>
+                                <div class="carousel__features">
+                                    <span class="feature-tag" data-translate="lowerEnergyCosts">Lower Energy Costs</span>
+                                    <span class="feature-tag" data-translate="reducedWasteHeat">Reduced Waste Heat</span>
+                                    <span class="feature-tag" data-translate="betterRange">Better Range</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Maintenance Slide -->
+                        <div class="carousel__slide">
+                            <div class="carousel__diagram">
+                                <div class="chart__item">
+                                    <h4 data-translate="maintenanceCost">Maintenance Cost</h4>
+                                    <div class="chart__bar">
+                                        <div class="bar electric-low" data-value="20">
+                                            <span class="bar__label" data-translate="electricLow">Electric: Low</span>
+                                        </div>
+                                        <div class="bar diesel-high" data-value="80">
+                                            <span class="bar__label" data-translate="dieselHigh">Diesel: High</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__info">
+                             
+                                <h3 class="carousel__title" data-translate="reducedMaintenanceCosts">Reduced Maintenance Costs</h3>
+                                <p class="carousel__description" data-translate="electricMaintenanceDesc">
+                                    Electric propulsion systems have fewer moving parts, require no oil changes, and have significantly less downtime compared to conventional diesel engines.
+                                </p>
+                                <div class="carousel__features">
+                                    <span class="feature-tag" data-translate="fewerParts">Fewer Parts</span>
+                                    <span class="feature-tag" data-translate="noOilChanges">No Oil Changes</span>
+                                    <span class="feature-tag" data-translate="lessDowntime">Less Downtime</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Noise Level Slide -->
+                        <div class="carousel__slide">
+                            <div class="carousel__diagram">
+                                <div class="chart__item">
+                                    <h4 data-translate="noiseLevel">Noise Level (dB)</h4>
+                                    <div class="chart__bar">
+                                        <div class="bar electric-quiet" data-value="30">
+                                            <span class="bar__label" data-translate="electricNoise">Electric: 45 dB</span>
+                                        </div>
+                                        <div class="bar diesel-loud" data-value="85db">
+                                            <span class="bar__label" data-translate="dieselNoise">Diesel: 85 dB</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__info">
+                             
+                                <h3 class="carousel__title" data-translate="whisperQuietOperation">Whisper-Quiet Operation</h3>
+                                <p class="carousel__description" data-translate="quietOperationDesc">
+                                    Electric systems operate at just 45 dB, comparable to a quiet conversation, while diesel engines generate up to 85 dB, which requires hearing protection for prolonged exposure.
+                                </p>
+                                <div class="carousel__features">
+                                    <span class="feature-tag" data-translate="passengerComfort">Passenger Comfort</span>
+                                    <span class="feature-tag" data-translate="crewWellbeing">Crew Wellbeing</span>
+                                    <span class="feature-tag" data-translate="wildlifeFriendly">Wildlife Friendly</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Energy Cost Analysis Slide -->
+                        <div class="carousel__slide">
+                            <div class="carousel__diagram">
+                                <div class="chart__item">
+                                    <h4 data-translate="energyCostAnalysis">Energy Cost Analysis</h4>
+                                    <div class="chart__legend">
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--electric"></div>
+                                            <span class="legend__text" data-translate="electric">Electric</span>
+                                        </div>
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--diesel"></div>
+                                            <span class="legend__text" data-translate="diesel">Diesel</span>
+                                        </div>
+                                    </div>
+                                    <div class="chart__bar">
+                                        <div class="bar electric-cost" data-value="40">
+                                            <span class="bar__label" data-translate="electricCost">Electric: 40% Cost</span>
+                                        </div>
+                                        <div class="bar diesel-cost" data-value="100">
+                                            <span class="bar__label" data-translate="dieselCost">Diesel: 100% Cost</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__info">
+                         
+                                <h3 class="carousel__title" data-translate="lowerOperationalCosts">Lower Operational Costs</h3>
+                                <p class="carousel__description" data-translate="operationalCostsDesc">
+                                    Electric propulsion systems typically operate at 40% of the energy cost of diesel systems. While the initial investment is higher, the long-term savings on fuel costs provide significant economic benefits over the vessel's lifetime.
+                                </p>
+                                <div class="carousel__features">
+                                    <span class="feature-tag" data-translate="reducedFuelCosts">Reduced Fuel Costs</span>
+                                    <span class="feature-tag" data-translate="lowerPriceVolatility">Lower Price Volatility</span>
+                                    <span class="feature-tag" data-translate="betterRoiOverTime">Better ROI Over Time</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Cruising Range Slide -->
+                        <div class="carousel__slide">
+                            <div class="carousel__diagram">
+                                <div class="chart__item">
+                                    <h4 data-translate="cruisingRangeComparison">Cruising Range Comparison</h4>
+                                    <div class="chart__legend">
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--electric"></div>
+                                            <span class="legend__text" data-translate="electric">Electric</span>
+                                        </div>
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--diesel"></div>
+                                            <span class="legend__text" data-translate="diesel">Diesel</span>
+                                        </div>
+                                    </div>
+                                    <div class="chart__bar">
+                                        <div class="bar electric-range" data-value="15">
+                                            <span class="bar__label" data-translate="electricRange">Electric: 15%</span>
+                                        </div>
+                                        <div class="bar diesel-range" data-value="100">
+                                            <span class="bar__label" data-translate="dieselRange">Diesel: 100%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__info">
+                             
+                                <h3 class="carousel__title" data-translate="limitedCruisingRange">Limited Cruising Range</h3>
+                                <p class="carousel__description" data-translate="limitedRangeDesc">
+                                    Full electric vessels currently achieve approximately 15% of the endurance of conventional diesel vessels on a single charge. This makes electric propulsion ideal for short routes with regular charging opportunities.
+                                </p>
+                                <div class="carousel__features">
+                                    <span class="feature-tag" data-translate="suitableForShortRoutes">Suitable for Short Routes</span>
+                                    <span class="feature-tag" data-translate="chargingInfrastructureRequired">Charging Infrastructure Required</span>
+                                    <span class="feature-tag" data-translate="improvingWithBatteryTechnology">Improving with Battery Technology</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Emissions Comparison Slide -->
+                        <div class="carousel__slide">
+                            <div class="carousel__diagram">
+                                <div class="chart__item">
+                                    <h4 data-translate="emissionsComparison">Emissions Comparison</h4>
+                                    <div class="chart__legend">
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--electric"></div>
+                                            <span class="legend__text" data-translate="electric">Electric</span>
+                                        </div>
+                                        <div class="legend__item">
+                                            <div class="legend__color legend__color--diesel"></div>
+                                            <span class="legend__text" data-translate="diesel">Diesel</span>
+                                        </div>
+                                    </div>
+                                    <div class="chart__bar">
+                                        <div class="bar electric-emission" data-value="0">
+                                            <span class="bar__label" data-translate="electricEmission">Electric: 0 CO₂/NOₓ</span>
+                                        </div>
+                                        <div class="bar diesel-emission" data-value="100">
+                                            <span class="bar__label" data-translate="dieselEmission">Diesel: High Emissions</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel__info">
+                       
+                                <h3 class="carousel__title" data-translate="zeroLocalEmissions">Zero Local Emissions</h3>
+                                <p class="carousel__description" data-translate="zeroEmissionsDesc">
+                                    Electric vessels produce zero local emissions during operation. In contrast, diesel engines release significant amounts of CO₂, NOₓ, SOₓ, and particulate matter that contribute to air pollution and climate change.
+                                </p>
+                                <div class="carousel__features">
+                                    <span class="feature-tag" data-translate="cleanAir">Clean Air</span>
+                                    <span class="feature-tag" data-translate="protectedEcosystems">Protected Ecosystems</span>
+                                    <span class="feature-tag" data-translate="carbonNeutral">Carbon Neutral*</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Indicators -->
+                <div class="carousel__indicators">
+                    <button class="carousel__indicator carousel__indicator--active" data-slide="0">
+                        <span class="carousel__label" data-translate="efficiency">Efficiency</span>
+                    </button>
+                    <button class="carousel__indicator" data-slide="1">
+                        <span class="carousel__label" data-translate="maintenance">Maintenance</span>
+                    </button>
+                    <button class="carousel__indicator" data-slide="2">
+                        <span class="carousel__label" data-translate="noise">Noise</span>
+                    </button>
+                    <button class="carousel__indicator" data-slide="3">
+                        <span class="carousel__label" data-translate="cost">Cost</span>
+                    </button>
+                    <button class="carousel__indicator" data-slide="4">
+                        <span class="carousel__label" data-translate="rangeIndicator">Range</span>
+                    </button>
+                    <button class="carousel__indicator" data-slide="5">
+                        <span class="carousel__label" data-translate="emissions">Emissions</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SLD Example Section -->
+    <section class="sld-section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-translate="singleLineDiagram">Single Line Diagram</h2>
+                <p class="section__description" data-translate="sldDescription">
+                    Understanding the electrical distribution system of a full electric vessel
+                </p>
+            </div>
+
+            <div class="sld-container">
+                <div class="sld-image-area">
+                    <!-- Replace with your actual SLD image -->
+                    <img src="../img/system/SLDfullelectric.png" alt="Single Line Diagram" class="sld-image">
+                    <!-- If you don't have an image yet, uncomment this placeholder -->
+                    <!-- <div class="sld-placeholder">SLD image area</div> -->
+                </div>
+                <div class="sld-text-area">
+                    <h3 data-translate="systemConfiguration">System Configuration</h3>
+                    <p data-translate="systemConfigurationDesc">This Single Line Diagram illustrates our dual redundant marine electric propulsion system. Two 360kWh battery banks power twin 165kW electric motors through a sophisticated power management network. The system features 500kWe shore charging stations operating at 800VDC, multiple DCDC converters maintaining 750VDC on the main bus, and comprehensive protection through strategically placed fuses. DCAC inverters convert power for the vessel's 3-400V/230V AC systems. This symmetrical architecture ensures reliability—if one side fails, the other maintains operation. The design prioritizes redundancy, safety, and efficient power distribution for optimal marine performance in all conditions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-placeholder"></div>
+    <script src="../js/translations.js"></script>
+    <script src="../js/language-switcher.js"></script>
+    <script src="../js/load-footer.js"></script>
+    <script src="../../js/load-header.js"></script>
+    <script src="../js/performance-carousel.js"></script>
+
+</body>
+</html>

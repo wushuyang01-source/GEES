@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="pilotShipPageTitle">E-Pilot Ship - General Energies</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/electricship.css">
+    <link rel="stylesheet" href="../../css/languageswitcher.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <!-- E-Pilot Hero Section -->
+    <section class="ship-hero-banner">
+        <img src="../img/electricship/Pilotshipheader.jpg" alt="E-Pilot Exterior">
+        <div class="hero-banner__overlay">
+            <div class="container">
+                <div class="hero-banner__content">
+                    <h1 class="hero-banner__title">EEL Series</h1>
+                    <p class="hero-banner__subtitle" data-translate="fullElectricPilotVessel">Full Electric Pilot Vessel</p>
+                    <a href="#specifications" class="hero-banner__btn" data-translate="viewSpecifications">View Specifications</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="ship-features">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title" data-translate="keyFeatures">Key Features</h2>
+                <p class="section__description" data-translate="pilotShipDescription">
+                    Designed for transporting pilots, crew, passengers, and engineers for large ships.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-card__icon" id="electric-icon">
+                        <!-- Icon will be loaded here by JavaScript -->
+                    </div>
+                    <h3 class="feature-card__title" data-translate="zeroEmission">Zero Emission</h3>
+                    <p class="feature-card__description" data-translate="pilotZeroEmissionDesc">
+                        100% electric propulsion system with zero local emissions, contributing to cleaner harbor environments.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-card__icon" id="control-icon">
+                        <!-- Icon will be loaded here by JavaScript -->
+                    </div>
+                    <h3 class="feature-card__title" data-translate="advancedControl">Advanced Control</h3>
+                    <p class="feature-card__description" data-translate="advancedControlDesc">
+                        Precise maneuvering capabilities with General Energies' EMS systems for safe pilot transfers in challenging conditions.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-card__icon" id="shield-icon">
+                        <!-- Icon will be loaded here by JavaScript -->
+                    </div>
+                    <h3 class="feature-card__title" data-translate="enhancedSafety">Enhanced Safety</h3>
+                    <p class="feature-card__description" data-translate="enhancedSafetyDesc">
+                        Equipped with two independent systems, the vessel ensures uninterrupted propulsion and safety even if one power source fails.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-card__icon" id="design-icon">
+                        <!-- Icon will be loaded here by JavaScript -->
+                    </div>
+                    <h3 class="feature-card__title" data-translate="classicDesign">Classic Design</h3>
+                    <p class="feature-card__description" data-translate="classicDesignDesc">
+                       The entire vessel was designed by Italy's MASS Design Studio, with multiple certifications. It features an elegant exterior and a well-organized interior layout.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section class="ship-specifications" id="specifications">
+        <div class="container">
+            <div class="red-bar"></div>
+            <div class="section__header">
+                <h2 class="section__title" data-translate="specifications">Specifications</h2>
+            </div>
+             <!-- PDF Download Section -->
+            <div class="spec-download">
+                <button id="downloadPdfBtn" class="download-btn">
+                    <svg class="download-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14,2 14,8 20,8" fill="none" stroke="currentColor" stroke-width="2"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13" stroke="currentColor" stroke-width="2"></line>
+                        <line x1="16" y1="17" x2="8" y2="17" stroke="currentColor" stroke-width="2"></line>
+                        <polyline points="10,9 9,9 8,9" fill="none" stroke="currentColor" stroke-width="2"></polyline>
+                    </svg>
+                    <span data-translate="download">Download</span>
+                </button>
+            </div>
+            <div class="specifications-content">
+                <!-- Dimensions Section -->
+                <div class="spec-category">
+                    <h3 class="spec-category__title" data-translate="dimensions">Dimensions</h3>
+                    <div class="spec-items">
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="loa">LOA</span>
+                            <span class="spec-value">13.6 m</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="bMax">B max</span>
+                            <span class="spec-value">4.22 m</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="draft">Draft</span>
+                            <span class="spec-value">0.82m</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="displacement">Displacement</span>
+                            <span class="spec-value">13 t</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="hullAndSuperstructure">Hull and Superstructure</span>
+                            <span class="spec-value" data-translate="hullMaterials">Aluminum alloy 5083<br>FRP fiberglass</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Section -->
+                <div class="spec-category">
+                    <h3 class="spec-category__title" data-translate="performance">Performance</h3>
+                    <div class="spec-items">
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="cruisingSpeed">Cruising speed</span>
+                            <span class="spec-value">8 knots</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="maxSpeed">Max speed</span>
+                            <span class="spec-value">18 knots</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="enduranceTime">Endurance time</span>
+                            <span class="spec-value" data-translate="enduranceTimeValue">7 hour @ 8 knots</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="range">Range</span>
+                            <span class="spec-value">56 Nm</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="crew">Crew</span>
+                            <span class="spec-value">2 persons</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="passengers">Passengers</span>
+                            <span class="spec-value">12 persons</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="battery">Battery</span>
+                            <span class="spec-value">LF 2 x 193.5 kWh</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="batteryCharge">Battery Charge</span>
+                            <span class="spec-value">AC380V</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Full Electric Propulsion System -->
+                <div class="spec-category">
+                    <h3 class="spec-category__title" data-translate="fullElectricPropulsionSystem">Full Electric Propulsion System</h3>
+                    <div class="spec-items">
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="propulsionMotor">Propulsion motor</span>
+                            <span class="spec-value">2 x 150kW</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Electrical System -->
+                <div class="spec-category">
+                    <h3 class="spec-category__title" data-translate="electricalSystem">Electrical System</h3>
+                    <div class="spec-items">
+                        <div class="spec-item">
+                            <span class="spec-label" data-translate="dcLink">DC link</span>
+                            <span class="spec-value" data-translate="dcLinkSystem">DC Link system (DC750V)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="ship-gallery">
+        <div class="container">
+            <div class="red-bar"></div>
+            <div class="section__header">
+                <h2 class="section__title" data-translate="gallery">Gallery</h2>
+                
+            </div>
+            
+            <div class="gallery-layout">
+                <!-- Main Gallery Image -->
+                <div class="gallery-main">
+                    <img src="../img/electricship/pilotgallery1.png" alt="E-Pilot Main View" id="mainGalleryImage">
+                    <div class="gallery-main__overlay">
+                        <h4 id="mainGalleryTitle" data-translate="exteriorDesign">Exterior Design</h4>
+                    </div>
+                </div>
+                
+                <!-- Gallery Thumbnails -->
+                <div class="gallery-thumbnails">
+                    <div class="gallery-thumb active" data-image="../img/electricship/pilotgallery2.png" data-title="Exterior Design">
+                        <img src="../img/electricship/pilotgallery2.png" alt="E-Pilot Exterior">
+                    </div>
+                    <div class="gallery-thumb" data-image="../img/electricship/pilotgallery3.jpg" data-title="Exterior Design">
+                        <img src="../img/electricship/pilotgallery3.jpg" alt="E-Pilot Bridge">
+                    </div>
+                    <div class="gallery-thumb" data-image="../img/electricship/pilotgallery1.png" data-title="Exterior Design">
+                        <img src="../img/electricship/pilotgallery1.png" alt="E-Pilot Operations">
+                    </div>
+                    <div class="gallery-thumb" data-image="../img/electricship/pilotgallery4.jpg" data-title="Pilot Transfer">
+                        <img src="../img/electricship/pilotgallery4.jpg" alt="E-Pilot Engine Room">
+                    </div>
+                    <div class="gallery-thumb" data-image="../img/electricship/pilotgallery5.jpg" data-title="Pilot Transfer">
+                        <img src="../img/electricship/pilotgallery5.jpg" alt="E-Pilot Operations">
+                    </div>
+                    <div class="gallery-thumb" data-image="../img/electricship/pilotgallery6.jpg" data-title="Pilot Transfer">
+                        <img src="../img/electricship/pilotgallery6.jpg" alt="E-Pilot Operations">
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="ship-contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="contact-title" data-translate="letUsHelpYou">Let us help you meet your needs for electric ships</h2>
+                    
+                    <div class="contact-quote">
+                        <div class="quote-mark">"</div>
+                        <p class="contact-description" data-translate="optimalTechnicalSolutions">
+                            By providing optimal technical solutions, the company's expert team is dedicated to helping shipowners reduce their carbon footprint and energy costs.
+                        </p>
+                    </div>
+                    
+                    <a href="/page/contact.html" class="contact-btn" data-translate="contactUs">Contact us</a>
+                </div>
+                
+                <div class="contact-visual">
+                    <img src="../img/electricship/tugboatbackground.png" alt="Electric Vessel" class="contact-ship">
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-placeholder"></div>
+    
+    <script src="../js/translations.js"></script>
+    <script src="../js/language-switcher.js"></script>
+    <script src="../js/load-footer.js"></script>
+    <script src="../../js/load-header.js"></script>
+    <script src="../../js/gallery.js"></script>
+    <script src="../../js/pdf-download.js"></script>
+    <script src="../Icon/icons.js"></script>
+    <script>
+        // Initialize icons when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            renderIcon('electric-icon', 'electric');
+            renderIcon('control-icon', 'control');
+            renderIcon('shield-icon', 'shield');
+            renderIcon('design-icon', 'design');
+        });
+    </script>
+   
+</body>
+</html>
