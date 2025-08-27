@@ -695,7 +695,7 @@ const translations = {
         ourTeamPageTitle: "Our Team - General Energies",
         ourTeamTitle: "Our Team",
         meetOurLeadership: "Meet Our Leadership",
-        softwareSystemsSupervisor: "Software&Systems supervisor",
+        softwareSystemsSupervisor: "Product Manager",
         rangerLiDescription: "Hosted and participated in the design, on-site construction, programming, and debugging of multiple medium and large-scale automation engineering projects.",
         generalManager: "General Manager",
         kevinFengDescription: "Graduated from Shanghai Jiao Tong University with a major in Power System Automation, with 30 years of experience in electrical engineering design for new energy nuclear power plants and electric propulsion systems for ships.",
@@ -715,10 +715,10 @@ const translations = {
         jillShaoDescription: "Shanghai Finance graduate with Intermediate Accountant qualification, fluent in English, 20+ years' experience in multinational firms, skilled in financial operations and management processes.",
         seniorMechanicalEngineer: "Senior Mechanical Engineer",
         enqiangLiDescription: "Responsible for mechanical design and structural design",
-
-         seniorMechanicalEngineer: "Senior Mechanical Engineer",
-        enqiangLiDescription: "Responsible for mechanical design and structural design",
-
+        CommissioningServiceManager:"Commissioning & Service Manager",
+        TonyWuDescription:"Organize and coordinate on-site debugging, installation technical support and operation maintenance of ship projects.",
+        ProductionSupervisor:"Production Supervisor",
+        QianJianpingDescription:"Responsible for manufacturing or production processes to ensure efficiency, quality and safety.",
         // Parallel Hybrid System specific translations
         parallelHybridSystemPageTitle: "Parallel Hybrid System - General Energies",
         parallelHybridMarineSystems: "Parallel Hybrid Marine Systems",
@@ -940,6 +940,8 @@ const translations = {
         JamesLiang:"James Liang",
         JillShao:"Jill Shao",
         EnqiangLi:"Enqiang Li",
+        TonyWu:"Tony Wu",
+        JianpingQian:"Jianping Qian",
 
         serialHybridSldDesc: "This Single Line Diagram illustrates the serial hybrid marine propulsion system featuring dual 180kWh battery banks and twin 113kWe variable speed gensets. The system operates at 750VDC on the main distribution bus, with comprehensive power management through DCDC converters and protection systems. Twin 165kW electric motors provide propulsion power while shore charging stations (500kWe at 800VDC) enable rapid battery replenishment. The symmetrical architecture ensures operational redundancy—if one power source fails, the vessel maintains capability through the alternate system, making it ideal for both zero-emission operation in restricted zones and extended range navigation using diesel-electric mode.",
 
@@ -1682,7 +1684,7 @@ const translations = {
         ourTeamPageTitle: "我们的团队 - 骏烨电船科技",
         ourTeamTitle: "我们的团队",
         meetOurLeadership: "认识我们的领导团队",
-        softwareSystemsSupervisor: "软件系统主管",
+        softwareSystemsSupervisor: "产品经理",
         rangerLiDescription: "主持并参与了多个中大型自动化工程项目的设计、现场施工、编程和调试。",
         generalManager: "总经理",
         kevinFengDescription: "毕业于上海交通大学电力系统自动化专业，在新能源核电站和船舶电力推进系统电气工程设计方面拥有30年经验。",
@@ -1694,7 +1696,7 @@ const translations = {
         perhapsLuDescription: "在进出口贸易和国际物流公司拥有20年经验；熟悉出口退税流程。",
         commercialDirector: "商务总监",
         joannaYangDescription: "协调和控制整体项目进展，负责整体项目进度和交付。",
-        itoProposalManager: "ITO提案经理",
+        itoProposalManager: "售前方案经理",
         angieHuDescription: "毕业于加利福尼亚大学尔湾分校。",
         applicationEngineer: "应用工程师",
         jamesLiangDescription: "毕业于曼彻斯特大学。",
@@ -1702,9 +1704,10 @@ const translations = {
         jillShaoDescription: "上海财经毕业，具有中级会计师资格，英语流利，在跨国公司拥有20多年经验，熟练掌握财务运营和管理流程。",
         seniorMechanicalEngineer: "高级机械工程师",
         enqiangLiDescription: "负责机械设计和结构设计",
-
-        seniorMechanicalEngineer: "高级机械工程师",
-        enqiangLiDescription: "负责机械设计和结构设计",
+        CommissioningServiceManager:"调试与服务经理",
+        TonyWuDescription:"组织协调船舶项目现场调试、安装技术支持、运行维护与故障响应工作",
+        ProductionSupervisor: "生产主管",
+        QianJianpingDescription: "负责制造或生产流程，以确保效率、质量和安全",
 
         // Parallel Hybrid System specific translations
         parallelHybridSystemPageTitle: "并联混合动力系统 - 骏烨电船科技",
@@ -1921,6 +1924,8 @@ const translations = {
         JamesLiang:"梁鉴恒",
         JillShao:"邵洪涛",
         EnqiangLi:"李恩强",
+        TonyWu:"武舒阳",
+        JianpingQian:"钱建平",
 
         serialHybridSldDesc: "此单线图展示了串联混合动力船舶推进系统，配备双180kWh电池组和双113kWe变速发电机组。系统在主配电母线上以750VDC运行，通过DCDC转换器和保护系统进行全面的电力管理。双165kW电动机提供推进动力，而岸电充电站（500kWe@800VDC）可实现快速电池补充。对称架构确保运行冗余——如果一个电源故障，船舶通过备用系统保持能力，使其既适合在限制区域的零排放运行，也适合使用柴电模式的扩展航程导航。",
 
