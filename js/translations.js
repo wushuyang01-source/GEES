@@ -603,9 +603,10 @@ const translations = {
         april2025: "April, 2025",
         august2024: "August, 2024",
         july2024: "July, 2024",
-        july20_2025: "July 20, 2025",
+        july20_2025: "July, 2025",
         december2023: "December, 2023",
         april2023: "April, 2023",
+        may2023:"May,2023",
         
         // News article titles and descriptions
         propulsionSilverRaven: "Propulsion for Silver Raven with Vulkan Hybrid",
@@ -625,9 +626,15 @@ const translations = {
         geesShowcasedPm120hy: "GEES showcased their new design, the PM120HY barge",
         nextGenerationEships: "What is the next generation of electric ships?",
         geesCanAnswer: "GEES can answer your question",
+        PowerMasterModel:"Power Master Model ASV38 Series Hybrid Ferry",
+        ECOSeries:"ECO Series - Advanced Hybrid Ferry Solution for Sustainable Passenger Transportation",
+        news10title:"General Energies E-CTV Introduction",
+        news10discrib:"Introducing the WindGuard Series - Revolutionary Electric Crew Transfer Vessels for Offshore Wind Operations",
+        news11title:"Hybrid Tug Introduction for Electrive",
+        news11discrib:"Revolutionary Hybrid Tugboat Technology Showcased at Leading Maritime Electrification Platform",
+        news12title:"E-ship Model PM120E/HY",
+        news12discrib:"PowerMaster Series - Advanced Electric and Hybrid Barge Solutions for Cargo Transportation",
 
-        nextGenerationEships: "What is the next generation of electric ships?",
-        geesCanAnswer: "GEES can answer your question",
 
         // Our Company specific translations
         ourCompanyPageTitle: "Our Company - General Energies",
@@ -1594,6 +1601,7 @@ const translations = {
         july20_2025: "2025年7月20日",
         december2023: "2023年12月",
         april2023: "2023年4月",
+        may2023:"2023年5月",
         
         // News article titles and descriptions
         propulsionSilverRaven: "与Vulkan Hybrid合作为Silver Raven提供推进系统",
@@ -1613,9 +1621,15 @@ const translations = {
         geesShowcasedPm120hy: "骏烨电船科技展示其新设计的PM120HY驳船",
         nextGenerationEships: "下一代电动船舶是什么？",
         geesCanAnswer: "骏烨电船科技可以回答您的问题",
-
-        nextGenerationEships: "下一代电动船舶是什么？",
-        geesCanAnswer: "骏烨电船科技可以回答您的问题",
+        PowerMasterModel:"动力大师 ASV38 系列混合动力渡轮",
+        ECOSeries:"ECO 系列 —— 面向可持续客运的先进混合动力渡轮解决方案",
+        news10title:"E-CTV介绍",
+        news10discrib:"推出用于海上风电作业的革命性电动船员转运船",
+        news11title:"混合动力拖船介绍",
+        news11discrib:"革命性的混合动力拖船技术在领先的海事电气化平台上展示",
+        news12title:"E-ship 模型 PM120E/HY",
+        news12discrib:"动力大师系列 —— 面向货物运输的先进电动及混合动力驳船解决方案",
+        
 
         // Our Company specific translations
         ourCompanyPageTitle: "我们的公司 - 骏烨电船科技",
