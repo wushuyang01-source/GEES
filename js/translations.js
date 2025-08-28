@@ -606,7 +606,7 @@ const translations = {
         july20_2025: "July, 2025",
         december2023: "December, 2023",
         april2023: "April, 2023",
-        may2023:"May,2023",
+        may2023:"May, 2023",
         
         // News article titles and descriptions
         propulsionSilverRaven: "Propulsion for Silver Raven with Vulkan Hybrid",
