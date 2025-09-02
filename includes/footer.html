@@ -16,9 +16,19 @@
                     <a href="https://www.linkedin.com/company/91176595/admin/dashboard/" class="footer__social-link" aria-label="LinkedIn">
                         <img src="../Icon/linkdin.svg" alt="LinkedIn" style="width: 32px; height: 32px;">
                     </a>
-                    <a href="#" class="footer__social-link" aria-label="WeChat">
-                        <img src="../Icon/weekchat.svg" alt="WeChat" style="width: 32px; height: 32px;">
+                    <a href="javascript:void(0);" class="footer__social-link" aria-label="WeChat" onclick="document.getElementById('wechatQR').style.display='block'">
+                         <img src="../Icon/weekchat.svg" alt="WeChat" style="width: 32px; height: 32px;">
                     </a>
+
+                    <!-- 二维码弹窗 -->
+                    <div id="wechatQR" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%); background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 12px rgba(0,0,0,0.3); text-align:center; z-index:9999;">
+                        <p style="margin-bottom:10px; font-size:16px; font-weight:bold;"  data-translate="QRCode">Scan the QR code to follow our WeChat official account</p>
+                        <img src="../img/WeChat/WeChat.jpg" alt="微信公众号二维码" style="width:200px; height:200px; border:1px solid #ddd; border-radius:8px;">
+                        <br><br>
+                        <button onclick="document.getElementById('wechatQR').style.display='none'" style="padding:6px 12px; border:none; background:#0078D4; color:#fff; border-radius:6px; cursor:pointer;" data-translate="Close">
+                            Close
+                        </button>
+                    </div>
                 </div>
             </div>
             
