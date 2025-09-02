@@ -30,7 +30,7 @@ const translations = {
         cyberSeries: "Cyber series",
         eBarge: "E-Barge",
         powerMaster: "PowerMaster",
-        eCTV: "e-ctv",
+        eCTV: "E-CTV",
         windGuardSeries: "WindGuard series",
         eFerry: "E-Ferry",
         ecoSeries: "ECO series",
@@ -179,7 +179,7 @@ const translations = {
         leadingMaritimeInnovation: "Leading Maritime Innovation",
         pioneeringElectricVesselTechnology: "Pioneering sustainable electric vessel technology with a vision for cleaner seas and innovative maritime solutions",
         eCalculator: "E-Calculator",
-
+        QRCode:"Scan the QR code to follow our WeChat official account",
         // English additions:
         contactPageTitle: "Contact Us - General Energies",
         contactUsTitle: "Contact Us",
@@ -1013,7 +1013,8 @@ const translations = {
         dcLinkNetworking: "DC-Link",
         gcsControlSystem: "GCS Control",
 
-        footer__companyname: "General Energies Electrical Ship (Shanghai) Limited "
+        footer__companyname: "General Energies Electrical Ship (Shanghai) Limited ",
+        Close:"Close",
 
 
 
@@ -1109,7 +1110,7 @@ const translations = {
         jointDesignDesc: "意大利MSS工作室拥有超过30年150多种新型船舶设计经验。骏烨电船科技提供推进和电气系统设计，共同设计电动船舶。",
         systemOptimization: "电动船舶系统优化",
         systemOptimizationDesc: "使用先进算法进行系统优化，最大化效率、性能和运营成本效益。",
-        calculatorReport: "AzurE 电池计算器",
+        calculatorReport: "AzurE E-Calculator电动船舶系统计算软件",
         calculatorReportDesc: "为电动船舶项目提供详细的财务分析和成本估算报告。",
         rhinoModeling: "Rhino Ceros 3D建模",
         rhinoModelingDesc: "通过Rhino Ceros 3D建模可以加速电动船舶设计过程，并验证所有主要设备是否存在冲突。",
@@ -1148,7 +1149,8 @@ const translations = {
         subject: "主题",
         message: "消息",
         sendMessageBtn: "发送消息",
-        
+        QRCode:"扫二维码关注微信公众号",
+        Close:"关闭",
         // Form Options
         selectSubject: "选择主题",
         generalInquiry: "一般咨询",
@@ -1985,7 +1987,7 @@ const translations = {
         startYourElectricVesselDesignToday: "立即开始您的电动船舶设计",
         experienceProfessionalTools: "体验AzurE电动船舶系统仿真软件的专业电动船舶设计和优化工具",
         launchCalculator: "启动计算器",
-        AzurE:"需要AzurE电船计算器数据",
+        AzurE:"需要AzurE E-Calculator电动船舶系统计算软件计算器数据",
 
         Requireddata:"需求数据",
         contactDescription1: "如需获取AzurE E-Calculator数据，请在下方主题中选择“需要 AzurE E-Calculator数据”，并在留言中填写具体数据需求。我们将尽快与您联系，并发送所需的 TXT 文件。",
