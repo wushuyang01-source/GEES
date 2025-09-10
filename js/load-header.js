@@ -147,7 +147,7 @@ function initializeMegaMenu() {
         'E-Ferry': 'e-ferry',
         // Chinese mappings
         'E-领航船': 'e-pilot',
-        'E-拖船': 'e-tug',
+        'E-拖轮': 'e-tug',
         'E-驳船': 'e-barge',
         'E-运输船': 'e-barge',  // Alternative Chinese name for E-Barge
         'E-船员运输船': 'e-ctv',
