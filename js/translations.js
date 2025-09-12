@@ -2038,7 +2038,7 @@ const translations = {
         HaikeoptionC:"确保遵守相关法规和标准",
         ShanghaiZheyan:"江苏哲言海洋科技有限公司",
         Jiangsu:"江苏",
-        ZheyanDescription:"上海哲言船务科技有限公司专业从事新能源船舶用直流配电板(含AC/DC整流器、DC/AC 逆变器、DC/DC直流变流器、固态开关)的自主研发、设计、制造，以及电力推进系统集成和销售。是中国第一家也是目前唯-一家获得ABS型式认可的国产变频器品牌。",
+        ZheyanDescription:"江苏哲言船务科技有限公司专业从事新能源船舶用直流配电板(含AC/DC整流器、DC/AC 逆变器、DC/DC直流变流器、固态开关)的自主研发、设计、制造，以及电力推进系统集成和销售。是中国第一家也是目前唯-一家获得ABS型式认可的国产变频器品牌。",
         ZheyanoptionA:"提供船用直流变频控制系统的DC-LINK 直流配电板",
         ZheyanoptionB:"提供直流配电板短路电流计算和选择性保护分析",
         ZheyanoptionC:"优化和开发相关产品和系统",
