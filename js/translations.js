@@ -1017,8 +1017,24 @@ const translations = {
         footer__companyname: "General Energies Electrical Ship (Shanghai) Limited ",
         Close:"Close",
 
-
-
+        ShenzhenHaikeDigitalPowerCoLtd:"Shenzhen Haike Digital Power ",
+        Shenzhen:"Shenzhen",
+        HaikeDescription:"Shenzhen Haike Digital Power Co., Ltd combines the advantageous industry platforms of BYD, China Merchants Shipbuilding and others to develop ultra-high safety battery packs and battery management systems, focusing on the development and production of the entire system of lithium battery products, and strengthening the new track of electrification applications in special safety scenarios.",
+        HaikeoptionA:"Provide technical expertise and support in battery system integration",
+        HaikeoptionB:"Offer financial solutions to assist customers in financing their electric ship projects",
+        HaikeoptionC:"Ensure compliance with relevant regulations and standards",
+        ShanghaiZheyan:"Shanghai Zheyan Shipping Technology",
+        Shanghai:"Shanghai",
+        ZheyanDescription:"specializes in the independent research and development, design, and manufacturing of DC switchboards (including AC/DC rectifiers, DC/AC inverters, DC/DC converters, and solid-state switches) for new energy vessels, as well as the integration and sales of electric propulsion systems. It is the first and currently the only domestically produced inverter brand in China to receive ABS type approval.",
+        ZheyanoptionA:"Provide DC-LINK DC distribution board for marine DC frequency conversion control system",
+        ZheyanoptionB:"Provides DC distribution board short-circuit current calculation and selective protection analysis",
+        ZheyanoptionC:"Optimize and develop related products and systems",
+        ZheyanoptionD:"Collaborate to develop customers and markets",
+        FPSDescription:"As a system integrator and solution provider, we can integrate different components or technologies to provide customers with complete power-related solutions.",
+        FPSoptionA:"As the exclusive agent of GEES in the Thailand territory",
+        FPSoptionB:"Develop the Thailand market with GEES",
+        Thailand:"Thailand",
+        FuturePowerSolution:"Future Power Solution",
     },
     
     zh: {
@@ -1695,10 +1711,8 @@ const translations = {
         vesselsDesigned: "船舶设计",
         ourStrategicPartners: "我们的战略合作伙伴",
         trustedRelationshipsAcross: "在海事行业建立的可信关系",
-
-
-        ourStrategicPartners: "我们的战略合作伙伴",
-        trustedRelationshipsAcross: "在海事行业建立的可信关系",
+        ShenzhenHaikeDigitalPowerCoLtd:"深圳海科数字能源有限公司",
+        Shenzhen:"深圳",
 
         // Our Team specific translations
         ourTeamPageTitle: "我们的团队 - 骏烨电船科技",
@@ -2018,7 +2032,21 @@ const translations = {
 
         footer__companyname: "骏烨电船科技（上海）有限公司 ",
         Requiredmanual:"需求教程",
-    
-    
-      }
+        HaikeDescription:"深圳海科数字能源有限公司着力于研发超高安全电池包及电池管理系统，聚焦锂电池产品全系统的开发和生产，做实做强特殊安全场景电动化应用的新赛道。",
+        HaikeoptionA:"提供电池系统集成方面的技术专业知识和支持",
+        HaikeoptionB:"提供金融解决方案，协助客户为电动船舶项目融资",
+        HaikeoptionC:"确保遵守相关法规和标准",
+        ShanghaiZheyan:"上海哲言船务科技有限公司",
+        Shanghai:"上海",
+        ZheyanDescription:"上海哲言船务科技有限公司专业从事新能源船舶用直流配电板(含AC/DC整流器、DC/AC 逆变器、DC/DC直流变流器、固态开关)的自主研发、设计、制造，以及电力推进系统集成和销售。是中国第一家也是目前唯-一家获得ABS型式认可的国产变频器品牌。",
+        ZheyanoptionA:"提供船用直流变频控制系统的DC-LINK 直流配电板",
+        ZheyanoptionB:"提供直流配电板短路电流计算和选择性保护分析",
+        ZheyanoptionC:"优化和开发相关产品和系统",
+        ZheyanoptionD:"共同合作开发客户和市场",
+        FPSDescription:"作为系统集成商和解决方案提供商，能将不同的组件或技术整合在一起，为客户提供完整的电力相关解决方案。",
+        FPSoptionA:"作为骏烨能源在泰国市场的独家代理方",
+        FPSoptionB:"与骏烨能源一起开拓泰国市场",
+        Thailand:"泰国",
+        FuturePowerSolution:"Future Power Solution公司",
+    }
 };
