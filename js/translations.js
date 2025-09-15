@@ -1865,7 +1865,7 @@ const translations = {
 
         // VED Product specific translations
         vedProductPageTitle: "VED产品 - 骏烨电船科技",
-        vedVariableElectricDrive: "可调速电驱装置（VED）",
+        vedVariableElectricDrive: "船用纯电推进装置（VED）",
         newBuildAndRetrofitting: "适合于新造船舶或改造船舶",
         advancedFullElectricShipSolution: "先进的全电动船舶解决方案 60/200/300kW电机应用。",
         lessVibration: "低振动",
@@ -1900,7 +1900,7 @@ const translations = {
         vedProductGallery: "VED产品图库",
         sideView: "侧视图",
         applicationInsideEShip: "电动船舶内部应用",
-        vefsubtitle:"全电动船舶传动 — 支持最高 300 kW 电机",
+        vefsubtitle:" — 支持最高 300 kW 电机",
         threeInOne:"三合一",
         reliabledescrib:"VED是一种为中小型全电动船舶设计的高聚合传动模块。主要机械特点包括双齿轮减速、集成推力轴承以及AVR 隔振系统，可在高速运行中降低振动与磨损。该产品专为集成到 U 型传动布置中设计，可释放机舱宝贵空间，提高设计灵活性。",
         simpledescrib:"三合一紧凑组合：齿轮箱 + 永磁电机 + DC/AC 变换器。可选配 VULKAN 弹性联轴器。",
