@@ -171,3 +171,56 @@ window.addEventListener('headerLoaded', () => {
         window.languageSwitcher.reinitialize();
     }
 });
+
+// === 通用：根据语言更新所有 data-link-* 和 data-img-* 元素 ===
+function updateLinksByLanguage(lang) {
+    document.querySelectorAll('a[data-link-en][data-link-zh]').forEach(link => {
+        const newHref = link.getAttribute(`data-link-${lang}`);
+        if (newHref) link.href = newHref;
+    });
+}
+
+function updateImgsByLanguage(lang) {
+    document.querySelectorAll('img[data-img-en][data-img-zh]').forEach(img => {
+        const newSrc = img.getAttribute(`data-img-${lang}`) || img.getAttribute('data-img-en');
+        if (newSrc) {
+            // 只有在 src 不等于目标时再赋值，避免不必要的重绘
+            if (img.src.indexOf(newSrc) === -1) img.src = newSrc;
+        }
+    });
+}
+
+function applyLanguageToPage(lang) {
+    updateLinksByLanguage(lang);
+    updateImgsByLanguage(lang);
+    // 如果你还有其他基于 data-attribute 的切换（比如 data-video-*、data-doc-*），也在这里统一处理
+}
+
+// 页面第一次加载时按 localStorage 设置（常规情况）
+document.addEventListener('DOMContentLoaded', () => {
+    const savedLang = localStorage.getItem('language') || 'en';
+    applyLanguageToPage(savedLang);
+});
+
+// 语言切换时实时更新（你已有的事件）
+window.addEventListener('languageChanged', (e) => {
+    applyLanguageToPage(e.detail.lang);
+});
+
+// 关键：当页面从 bfcache / 历史恢复时也重新应用（解决“返回后再点变回英文”）
+window.addEventListener('pageshow', (e) => {
+    const savedLang = localStorage.getItem('language') || 'en';
+    applyLanguageToPage(savedLang);
+
+    // 可选：如果 languageSwitcher 已存在，强制同步 UI 状态
+    if (window.languageSwitcher && typeof window.languageSwitcher.loadLanguage === 'function') {
+        window.languageSwitcher.loadLanguage(savedLang);
+        if (typeof window.languageSwitcher.updateDropdownDisplay === 'function') {
+            window.languageSwitcher.updateDropdownDisplay();
+        }
+    }
+
+    // 开发时调试用：在控制台查看是否触发 pageshow
+    // console.log('pageshow fired, persisted=', e.persisted, 'lang=', savedLang);
+});
+
