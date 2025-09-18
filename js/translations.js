@@ -166,7 +166,10 @@ const translations = {
         productSolutions: "Product Solutions",
         vedVariableElectricDrive: "VED(Variable Electric Drive)",
         vhdVariableHybridDrive: "VHD(Variable Hybrid Drive)",
-        gcsControlSystem: "GCS Control System",
+        gcsControlSystem: "General Control System(GCS) ",
+        pcsControlSystem: "Propulsion Control System (PCS) ",
+        emsControlSystem: "Energy Management System (EMS) ",
+        scsControlSystem: "Steering Control System (SCS) ",
         integratedControlSystems: "General Control system (GCS)",
         advancedSystemIntegration: "Advanced system integration combining propulsion, control, and management systems for optimal vessel performance",
         eShipDesign: "E-Ship Design",
@@ -580,12 +583,11 @@ const translations = {
         electricSteeringControlSystem: "Electric Steering Control System",
         propulsionControlSystem: "Propulsion Control System",
         gcsIntroduction: "GCS Introduction",
-        emsDescription: "The PLC-based Energy Management System (EMS) is a critical control system for electric ships. It collects data from all propulsion motors, generators, and inverters, and communicates with the Battery Management System (BMS), displaying all system parameters. The EMS controls inverters to manage battery charging and discharging modes and can switch hybrid motors between motor and generator modes. This system is easy to install and maintain, featuring remote software updates and diagnostics, and it integrates seamlessly with the ship's monitoring and alarm systems, including an optional dynamic positioning system.",
-        scsDescription: "The Steering Control System (SCS) is designed for controlling the operation of a ship's steering gear. The electric steering control system uses servo motors to control electric linear actuators, which in turn control the ship's rudder angle to achieve steering and course-keeping. Our electric steering control system eliminates the need for traditional hydraulic pump stations. Instead, servo motors directly move the screw rods back and forth, generating significant torque while saving energy and reducing weight.",
-        pcsDescription: "The Propulsion Control System (PCS) is an integrated system designed to control and manage the propulsion systems of ships. The primary function of the PCS is to ensure the efficient, safe, and reliable operation of the ship's propulsion equipment, such as main engines, thrusters, and steering gears, thereby facilitating precise navigation control and optimized power output. Our propulsion control system adopts modular design and integration, meeting the propulsion needs of various electric ships, and includes functions such as remote-control system, speed/pitch display, azimuth display, and various hybrid mode switching.",
+        emsDescription: "The EMS optimizes power flow in electric ships, managing batteries, motors, and generators with smart control. It offers easy installation, remote updates, and seamless integration with monitoring, alarms, and dynamic positioning systems.",
+        scsDescription:"The Steering Control System (SCS) uses servo motors and electric actuators to control rudder angle for precise steering and course-keeping. By replacing traditional hydraulics, it delivers high torque with lower energy use and weight.",
+        pcsDescription: "The Propulsion Control System (PCS) delivers safe, efficient, and reliable propulsion management for electric vessels. With a modular design, it supports diverse ship types and key functions like remote control, real-time displays, and hybrid mode switching.",
 
-        pcsDescription: "The Propulsion Control System (PCS) is an integrated system designed to control and manage the propulsion systems of ships. The primary function of the PCS is to ensure the efficient, safe, and reliable operation of the ship's propulsion equipment, such as main engines, thrusters, and steering gears, thereby facilitating precise navigation control and optimized power output. Our propulsion control system adopts modular design and integration, meeting the propulsion needs of various electric ships, and includes functions such as remote-control system, speed/pitch display, azimuth display, and various hybrid mode switching.",
-
+        
         // News Page specific translations
         newsPageTitle: "News - Electrical Services",
         latestNewsUpdates: "Latest News & Updates",
@@ -1036,6 +1038,8 @@ const translations = {
         Requireddata:"Required data",
 
         EMSa:"EMS",
+        SCSa:"SCS",
+        PCSa:"PCS",
         footer__description:"Leading provider of electric vessel technology and sustainable maritime solutions. Building the future of clean shipping with innovative electric and hybrid propulsion systems.",
 
         contactInfo: "Contact Info",
@@ -1050,7 +1054,7 @@ const translations = {
         serialHybrid: "Serial Hybrid",
         parallelHybrid: "Parallel Hybrid",
         dcLinkNetworking: "DC-Link",
-        gcsControlSystem: "GCS Control",
+
 
         footer__companyname: "General Energies Electrical Ship (Shanghai) Limited ",
         Close:"Close",
@@ -1249,7 +1253,11 @@ const translations = {
         productSolutions: "产品解决方案",
         vedVariableElectricDrive: "可调速电驱装置（VED）",
         vhdVariableHybridDrive: "可调速混动装置（VHD）",
-        gcsControlSystem: "GCS控制系统",
+        gcsControlSystem: "通用控制系统(GCS)",
+        pcsControlSystem: "推进控制系统(PCS) ",
+        emsControlSystem: "能源管理系统(EMS) ",
+        scsControlSystem: "舵机控制系统(SCS) ",
+        
         integratedControlSystems: "集成控制系统",
         advancedSystemIntegration: "先进的系统集成，结合推进、控制和管理系统，实现最佳船舶性能",
         eShipDesign: "电动船舶设计",
@@ -1630,12 +1638,9 @@ const translations = {
         electricSteeringControlSystem: "舵机控制系统",
         propulsionControlSystem: "推进控制系统",
         gcsIntroduction: "通用控制系统(GCS)分支系统介绍",
-        emsDescription: "基于PLC的能源管理系统（EMS）是电动船舶的关键控制系统。它收集所有推进电机、发电机和逆变器的数据，与电池管理系统（BMS）通信，显示所有系统参数。EMS控制逆变器管理电池充放电模式，可在电机和发电机模式之间切换混合电机。该系统易于安装和维护，具有远程软件更新和诊断功能，并与船舶监控和报警系统无缝集成，包括可选的动态定位系统。",
-        scsDescription: "舵机控制系统（SCS）专为控制船舶舵机操作而设计。电动舵机控制系统使用伺服电机控制电动线性执行器，进而控制船舶舵角以实现操舵和保持航向。我们的电动舵机控制系统消除了传统推进液压泵站的需求。相反，伺服电机直接驱动螺杆往复运动，产生显著扭矩，同时节能减重。",
-        pcsDescription: "推进控制系统（PCS）是一个集成系统，用于控制和管理船舶推进系统。PCS的主要功能是确保船舶推进设备（如主机、推进器和舵机）的高效、安全、可靠运行，从而实现精确的航行控制和优化的功率输出。我们的推进控制系统采用模块化设计和集成，满足各种电动船舶的推进需求，包括遥控系统、速度/桨距显示、方位角显示以及各种混合模式切换等功能。",
-    
-    
-        pcsDescription: "推进控制系统（PCS）是一个集成系统，用于控制和管理船舶推进系统。PCS的主要功能是确保船舶推进设备（如主机、推进器和舵机）的高效、安全、可靠运行，从而实现精确的航行控制和优化的功率输出。我们的推进控制系统采用模块化设计和集成，满足各种电动船舶的推进需求，包括遥控系统、速度/桨距显示、方位角显示以及各种混合模式切换等功能。",
+        emsDescription: "EMS 优化电动船舶的动力流，通过智能控制管理电池、电机和发电机。它提供易于安装、远程更新以及与监控、警报和动态定位系统的无缝集成。",
+        scsDescription: "转向控制系统 （SCS） 使用伺服电机和电动执行器来控制方向舵角度，以实现精确转向和航向保持。通过取代传统的液压系统，它以更低的能耗和重量提供高扭矩。",
+        pcsDescription: "推进控制系统 （PCS） 为电动船舶提供安全、高效和可靠的推进管理。采用模块化设计，支持多种船舶类型和远程控制、实时显示、混合模式切换等关键功能。",
 
         // News Page specific translations
         newsPageTitle: "新闻 - 骏烨电船科技",
@@ -2103,7 +2108,6 @@ const translations = {
         serialHybrid: "串联混合动力",
         parallelHybrid: "并联混合动力",
         dcLinkNetworking: "直流组网",
-        gcsControlSystem: "GCS控制系统",
 
         footer__companyname: "骏烨电船科技（上海）有限公司 ",
         Requiredmanual:"需求教程",
