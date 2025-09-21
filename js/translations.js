@@ -822,8 +822,8 @@ const translations = {
         frontSideBackView: "Front,side,back View",
         renderingView: "Product",
         displacementView: "Displacement View",
-
-        displacementView: "Displacement View",
+        Coolingwaterpipe:"Cooling water pipe",
+        Coolingwaterdistributor:"Cooling water distributor",
 
         // VED Product specific translations
         vedProductPageTitle: "VED Product - General Energies",
@@ -1892,11 +1892,11 @@ const translations = {
         protection: "分段运行",
         dcLinkCabinetDivision: "直流组网柜将分为MB-E电气柜和MB-M液冷柜两个部分：",
         fastDcProtectionFuse: "快速直流保护熔断器",
-        dcBusbar: "直流母线",
-        manualBusTieIsolatorSwitch: "手动母线联络隔离开关",
-        analogDisplayMeter: "冷却水管",
-        spaceHeater: "冷却水多路分配器",
-        multifunctionDisplayInstrument: "敞开式或者封闭式两种",
+        dcBusbar: "直流母排",
+        manualBusTieIsolatorSwitch: "母排联络隔离开关",
+        analogDisplayMeter: "模拟显示仪表",
+        spaceHeater: "空间加热器",
+        multifunctionDisplayInstrument: "多功能显示仪表",
         dcDcConverter: "DC-DC转换器",
         dtu: "LTS电抗器",
         dcAcConverterDailyLoads: "DC-AC转换器（用于日常负载）",
@@ -1904,8 +1904,10 @@ const translations = {
         frontSideBackView: "正面，侧面，背面视图",
         renderingView: "实际产品",
         displacementView: "位移视图",
+        Coolingwaterpipe:"冷却水管",
+        Coolingwaterdistributor:"冷却水分配器",
 
-        displacementView: "位移视图",
+        
 
         // VED Product specific translations
         vedProductPageTitle: "VED产品 - 骏烨电船科技",
