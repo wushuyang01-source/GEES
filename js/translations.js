@@ -1148,6 +1148,10 @@ const translations = {
         Compatible:"Compatible with EMS and ship automation",
         Modulardesign:"Modular design for easy expansion and retrofit ",
         pcsbenefit1:"PCS provides stable and efficient power conversion, extending battery lifespan and enhancing propulsion efficiency. It reduces operating costs by optimizing energy flows and enables vessels to comply with future environmental regulations through flexible integration of renewable energy sources.",
+        
+        //sanmhorizen news
+        Samhorizen:"Propulsion for Silver Raven with Samhorizen",
+        gees13msamhorzen:"GEES Provides the Electric Propulsion System for the 13m-E-Pilot",
     },
     
     
@@ -2272,5 +2276,9 @@ const translations = {
         Compatible:"与 EMS 及船舶自动化系统兼容",
         Modulardesign:"模块化设计，便于扩展与改造",
         pcsbenefit1:"PCS提供稳定高效的电力转换，延长电池寿命并提高推进效率。它通过优化能源流来降低运营成本，并通过灵活整合可再生能源，使船舶能够符合未来的能源环境。",
+
+        //sanmhorizen news
+        Samhorizen:"与Samhorizen合作，为13米领航船提供动力系统",
+        gees13msamhorzen:"骏烨电船科技为印尼13米领航船提供电力推进系统",
     }
 };
