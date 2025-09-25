@@ -1128,7 +1128,28 @@ const translations = {
         Redundantcommunication:"Redundant communication links and safety interlocks",
         emsbenefit:"Benefit",
         emsbenefit1:"Beyond power control, EMS enhances overall vessel efficiency, reduces fuel consumption in hybrid modes, and extends battery lifetime through optimized charge cycles. It reduces operator workload with automated decision-making, while maintaining full manual override capability. EMS provides long-term lifecycle value by lowering operating costs and simplifying future retrofits.",
+        
+        //PCS.html
+        pcsSystemTitle:"Propulsion Control System(PCS)",
+        bridgeBetweenPowerSources:"The Bridge Between Energy Sources and Loads",
+        pcsShortDesc:"PCS ensures efficient, stable, and flexible energy conversion forelectric and hybrid vessels, supporting battery charging,propulsion drive, and shore power connection.",
+        pcsOverviewTitle:"PCS Overview",
+        pcsOverviewEN:"The Propulsion Control System (PCS) is the core of the vessel’s electrical architecture. It manages the bidirectional power flow between batteries, propulsion drives, auxiliary systems, and shore/grid connections. With advanced converter technology, PCS ensures smooth energy conversion, voltage stabilization, and safe switching between operating modes. ",
+        EnergyConversion:"Energy Conversion",
+        DC_AC:"Bidirectional DC/AC conversion for propulsion and battery",
+        Supportsmultiple:"Supports multiple power sources: batteries, generators, shore power",
+        Seamlesstransition:"Seamless transition between operating modes",
+        Safeandprotect:"Safety & Protection",
+        Overcurrent:"Overcurrent and short-circuit protection",
+        Isolation:"Isolation monitoring and ground fault detection",
+        Emergencystop:"Emergency stop & redundant communication",
+        IntegrationMaintenance:"Integration & Maintenance",
+        Remotemonitoring:"Remote monitoring and diagnostics",
+        Compatible:"Compatible with EMS and ship automation",
+        Modulardesign:"Modular design for easy expansion and retrofit ",
+        pcsbenefit1:"PCS provides stable and efficient power conversion, extending battery lifespan and enhancing propulsion efficiency. It reduces operating costs by optimizing energy flows and enables vessels to comply with future environmental regulations through flexible integration of renewable energy sources.",
     },
+    
     
     zh: {
         // Page Title
@@ -2231,5 +2252,25 @@ const translations = {
         Redundantcommunication:"冗余通讯与安全联锁",
         emsbenefit:"用户价值",
         emsbenefit1:"除了功率控制，EMS还提高了整体船舶效率，降低了混合动力模式下的燃料消耗，并通过优化充电周期延长了电池寿命。它通过自动化决策减少了操作员的工作量，同时保持了完全的手动超控能力。EMS通过降低运营成本和简化未来的改造，提供了长期的生命周期价值。",
+        
+        //PCS.html
+        pcsSystemTitle:"推进控制系统(PCS)",
+        bridgeBetweenPowerSources:"连接能源与负载的桥梁",
+        pcsShortDesc:"PCS确保电动和混合动力船舶的高效、稳定和灵活的能量转换，支持电池充电、推进驱动和岸电连接。",
+        pcsOverviewTitle:"系统概述",
+        pcsOverviewEN:"推进控制系统（PCS）是电动与混合动力船舶电气架构的核心。它负责电池、推进驱动、辅机系统与岸电/电网之间的双向功率流管理。通过先进的变流技术，PCS 能够实现平稳的能量转换、电压稳定，并在多种运行模式之间安全切换。",
+        EnergyConversion:"能源转换",
+        DC_AC:"电池与推进系统的双向 DC/AC 转换",
+        Supportsmultiple:"兼容多种电源输入",
+        Seamlesstransition:"模式平稳切换",
+        Safeandprotect:"安全保障",
+        Overcurrent:"过流与短路保护",
+        Isolation:"绝缘与接地故障检测",
+        Emergencystop:"急停与冗余通讯",
+        IntegrationMaintenance:"集成与维护",
+        Remotemonitoring:"远程监控与诊断",
+        Compatible:"与 EMS 及船舶自动化系统兼容",
+        Modulardesign:"模块化设计，便于扩展与改造",
+        pcsbenefit1:"PCS提供稳定高效的电力转换，延长电池寿命并提高推进效率。它通过优化能源流来降低运营成本，并通过灵活整合可再生能源，使船舶能够符合未来的能源环境。",
     }
 };
