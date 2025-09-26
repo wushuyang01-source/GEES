@@ -2278,7 +2278,7 @@ const translations = {
         pcsbenefit1:"PCS提供稳定高效的电力转换，延长电池寿命并提高推进效率。它通过优化能源流来降低运营成本，并通过灵活整合可再生能源，使船舶能够符合未来的能源环境。",
 
         //sanmhorizen news
-        Samhorizen:"与Samhorizen合作，为13米领航船提供动力系统",
-        gees13msamhorzen:"骏烨电船科技为印尼13米领航船提供电力推进系统",
+        Samhorizen:"与Samhorizen合作，为13米纯电动领航船提供动力系统",
+        gees13msamhorzen:"设计并建造印度尼西亚第一艘电动船",
     }
 };
