@@ -1249,8 +1249,8 @@ const translations = {
         calculatorReportDesc: "为电动船舶项目提供详细的财务分析和成本估算报告。",
         rhinoModeling: "Rhino Ceros 3D建模",
         rhinoModelingDesc: "通过Rhino Ceros 3D建模可以加速电动船舶设计过程，并验证所有主要设备是否存在冲突。",
-        prototypeShip: "原型电动船舶",
-        prototypeShipDesc: "我们帮助船东建造原型船，并提供原型保险，原型的成功将帮助船东开拓市场。",
+        prototypeShip: "首制电动船舶",
+        prototypeShipDesc: "我们帮助船东建造首制船，并提供首制保险，首制的成功将帮助船东开拓市场。",
         aipCertificate: "申请AIP证书",
         aipCertificateDesc: "通过向中国船级社申请AIP证书，将帮助船东做出最终决定并降低投资风险。",
         
