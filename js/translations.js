@@ -1152,6 +1152,9 @@ const translations = {
         //sanmhorizen news
         Samhorizen:"Propulsion for Silver Raven with Samhorizen",
         gees13msamhorzen:"GEES Provides the Electric Propulsion System for the 13m-E-Pilot",
+
+        //commisioning & service
+        commisioningservice:"Service",
     },
     
     
@@ -2280,5 +2283,8 @@ const translations = {
         //sanmhorizen news
         Samhorizen:"与Samhorizen合作，为13米纯电动领航船提供动力系统",
         gees13msamhorzen:"设计并建造印度尼西亚第一艘电动船",
+
+        //commisioning & service
+        commisioningservice:"调试与售后服务",
     }
 };
