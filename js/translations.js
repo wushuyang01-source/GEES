@@ -1150,7 +1150,7 @@ const translations = {
         pcsbenefit1:"The PCS is a comprehensive propulsion control system for intelligent electric vessels, featuring high integration and strong compatibility. Its modular design enables precise control of motors, thrusters, steering gear, and other equipment, supporting a variety of propulsion modes and equipment types to ensure efficient and safe vessel operation under various operating conditions.",
         
         //sanmhorizen news
-        Samhorizen:"Propulsion for Silver Raven with Samhorizen",
+        Samhorizen:"Propulsion for Silver Raven with Sam Horizen",
         gees13msamhorzen:"GEES Provides the Electric Propulsion System for the 13m-E-Pilot",
 
         //commisioning & service
@@ -2281,10 +2281,10 @@ const translations = {
         pcsbenefit1:"PCS面向智能电动船的综合推进控制系统，具备高集成度和强兼容性。它通过模块化设计实现对电机、推进器、舵机等设备的精确控制，支持多种推进模式与设备类型，确保船舶在各种工况下的高效、安全运行。",
 
         //sanmhorizen news
-        Samhorizen:"与Samhorizen合作，为13米纯电动领航船提供动力系统",
+        Samhorizen:"与Sam Horizen合作，为13米纯电动领航船提供动力系统",
         gees13msamhorzen:"设计并建造印度尼西亚第一艘电动船",
 
         //commisioning & service
-        commisioningservice:"调试与售后服务",
+        commisioningservice:"调试与服务",
     }
 };
