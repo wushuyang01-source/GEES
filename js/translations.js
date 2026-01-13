@@ -611,8 +611,9 @@ const translations = {
         december2023: "December, 2023",
         april2023: "April, 2023",
         may2023:"May, 2023",
-        november2025:"November,2025",
-        
+        november2025:"October,2025",
+        December2025:"December,2025",
+
         // News article titles and descriptions
         propulsionSilverRaven: "Propulsion for Silver Raven with Vulkan Hybrid",
         geesElectricPropulsion: "GEES Provides the Electric Propulsion System for the UK's Silver Raven",
@@ -641,6 +642,8 @@ const translations = {
         news12discrib:"PowerMaster Series - Advanced Electric and Hybrid Barge Solutions for Cargo Transportation",
         news15title:"GEES at the Collaborative Development of the Electric Boat Industry Chain",
         news15discrib:"Forum on Collaborative Development of the Electric Boat Industry Chain was held in Shanghai.",
+        Marintecweek:"GEES at Marintec China 2025",
+        subtitle2025Marintec:"The 2025 Marintec China, held in Shanghai during the first week of December",
 
 
         // Our Company specific translations
@@ -1793,6 +1796,7 @@ const translations = {
         april2023: "2023年4月",
         may2023:"2023年5月",
         november2025:"2025年10月",
+        December2025:"2025年12月",
         
         // News article titles and descriptions
         propulsionSilverRaven: "与Vulkan Hybrid合作为Silver Raven提供推进系统",
@@ -1822,6 +1826,8 @@ const translations = {
         news12discrib:"动力大师系列 —— 面向货物运输的先进电动及混合动力驳船解决方案",
         news15title:"GEES参加聚势浦江・电动船产业链协同发展论坛",
         news15discrib:"聚势浦江・电动船产业链协同发展论坛在上海举办",
+        Marintecweek:"骏烨电船科技参展2025年中国海事展",
+        subtitle2025Marintec:"2025年海事展在12月第1周的上海举办",
         
 
         // Our Company specific translations
