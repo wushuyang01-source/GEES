@@ -736,6 +736,8 @@ const translations = {
         TonyWuDescription:"Organize and coordinate on-site debugging, installation technical support and operation maintenance of ship projects.",
         ProductionSupervisor:"Production Supervisor",
         QianJianpingDescription:"Responsible for manufacturing or production processes to ensure efficiency, quality and safety.",
+        CommissionningEngineer:"Commissionning & Service Engineer",
+        GaoyangDescription:"Responsible for onboard commissioning and product maintenance services.",
         // Parallel Hybrid System specific translations
         parallelHybridSystemPageTitle: "Parallel Hybrid System - General Energies",
         parallelHybridMarineSystems: "Parallel Hybrid Marine Systems",
@@ -997,6 +999,7 @@ const translations = {
         EnqiangLi:"Enqiang Li",
         TonyWu:"Tony Wu",
         JianpingQian:"Jianping Qian",
+        YangGao:"Will Gao",
 
         serialHybridSldDesc: "This Single Line Diagram illustrates the serial hybrid marine propulsion system featuring dual 180kWh battery banks and twin 113kWe variable speed gensets. The system operates at 750VDC on the main distribution bus, with comprehensive power management through DCDC converters and protection systems. Twin 165kW electric motors provide propulsion power while shore charging stations (500kWe at 800VDC) enable rapid battery replenishment. The symmetrical architecture ensures operational redundancy—if one power source fails, the vessel maintains capability through the alternate system, making it ideal for both zero-emission operation in restricted zones and extended range navigation using diesel-electric mode.",
 
@@ -1922,6 +1925,8 @@ const translations = {
         TonyWuDescription:"组织协调船舶项目现场调试、安装技术支持、运行维护与故障响应工作",
         ProductionSupervisor: "生产主管",
         QianJianpingDescription: "负责制造或生产流程，以确保效率、质量和安全",
+        CommissionningEngineer:"调试服务工程师",
+        GaoyangDescription:"负责产品的现场调试和运维服务。",
 
         // Parallel Hybrid System specific translations
         parallelHybridSystemPageTitle: "并联混合动力系统 - 骏烨电船科技",
@@ -2179,6 +2184,7 @@ const translations = {
         EnqiangLi:"李恩强",
         TonyWu:"武舒阳",
         JianpingQian:"钱建平",
+        YangGao:"高扬",
 
         serialHybridSldDesc: "此单线图展示了串联混合动力船舶推进系统，配备双180kWh电池组和双113kWe变速发电机组。系统在主配电母线上以750VDC运行，通过DCDC转换器和保护系统进行全面的电力管理。双165kW电动机提供推进动力，而岸电充电站（500kWe@800VDC）可实现快速电池补充。对称架构确保运行冗余——如果一个电源故障，船舶通过备用系统保持能力，使其既适合在限制区域的零排放运行，也适合使用柴电模式的扩展航程导航。",
 
