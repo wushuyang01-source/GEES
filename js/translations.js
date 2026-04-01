@@ -613,6 +613,7 @@ const translations = {
         may2023:"May, 2023",
         november2025:"October,2025",
         December2025:"December,2025",
+        Jan2026:"January,2026",
 
         // News article titles and descriptions
         propulsionSilverRaven: "Propulsion for Silver Raven with Vulkan Hybrid",
@@ -644,6 +645,8 @@ const translations = {
         news15discrib:"Forum on Collaborative Development of the Electric Boat Industry Chain was held in Shanghai.",
         Marintecweek:"GEES at Marintec China 2025",
         subtitle2025Marintec:"The 2025 Marintec China, held in Shanghai during the first week of December",
+        LaboBoattitle:"The Labo Boat project has completed the FAT.",
+        LaboBoatsubtitle:"Commissionning work is being conducted at the Vulcan workshop in Genoa, Italy",
 
 
         // Our Company specific translations
@@ -1800,6 +1803,8 @@ const translations = {
         may2023:"2023年5月",
         november2025:"2025年10月",
         December2025:"2025年12月",
+        Jan2026:"2026年1月",
+
         
         // News article titles and descriptions
         propulsionSilverRaven: "与Vulkan Hybrid合作为Silver Raven提供推进系统",
@@ -1831,6 +1836,8 @@ const translations = {
         news15discrib:"聚势浦江・电动船产业链协同发展论坛在上海举办",
         Marintecweek:"骏烨电船科技参展2025年中国海事展",
         subtitle2025Marintec:"2025年海事展在12月第1周的上海举办",
+        LaboBoattitle:"Labo Boat项目完成出厂前调试工作",
+        LaboBoatsubtitle:"调试工作在意大利热那亚的伏尔康车间进行",
         
 
         // Our Company specific translations
