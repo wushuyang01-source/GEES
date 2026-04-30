@@ -614,6 +614,7 @@ const translations = {
         november2025:"October,2025",
         December2025:"December,2025",
         Jan2026:"January,2026",
+        April2026:"April,2026",
 
         // News article titles and descriptions
         propulsionSilverRaven: "Propulsion for Silver Raven with Vulkan Hybrid",
@@ -647,6 +648,8 @@ const translations = {
         subtitle2025Marintec:"The 2025 Marintec China, held in Shanghai during the first week of December",
         LaboBoattitle:"The Labo Boat project has completed the FAT.",
         LaboBoatsubtitle:"Commissionning work is being conducted at the Vulcan workshop in Genoa, Italy",
+        title18:"The Labo Boat project has completed the onboard commissioning.",
+        subtitle18:"Commissionning work is being conducted at the Actv shipyard in Venice, Italy",
 
 
         // Our Company specific translations
@@ -1804,6 +1807,7 @@ const translations = {
         november2025:"2025年10月",
         December2025:"2025年12月",
         Jan2026:"2026年1月",
+        April2026:"2026年4月",
 
         
         // News article titles and descriptions
@@ -1838,6 +1842,8 @@ const translations = {
         subtitle2025Marintec:"2025年海事展在12月第1周的上海举办",
         LaboBoattitle:"Labo Boat项目完成出厂前调试工作",
         LaboBoatsubtitle:"调试工作在意大利热那亚的伏尔康车间进行",
+        title18:"Labo Boat项目完成上船调试工作",
+        subtitle18:"调试工作在意大利威尼斯的ACTV船厂进行",
         
 
         // Our Company specific translations
